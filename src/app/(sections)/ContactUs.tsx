@@ -1,5 +1,9 @@
 import React from "react";
-import { RiInstagramLine, RiWhatsappLine } from "@remixicon/react";
+import {
+  RiInstagramLine,
+  RiWhatsappLine,
+  RiPinterestFill,
+} from "@remixicon/react";
 
 const ContactUs = () => {
   return (
@@ -11,7 +15,9 @@ const ContactUs = () => {
             <span className="hover:text-hover-color">
               GET IN
               <br />
-              <span className="text-5xl sm:text-6xl md:text-8xl font-imperial_script">Touch</span>
+              <span className="text-5xl sm:text-6xl md:text-8xl font-imperial_script">
+                Touch
+              </span>
             </span>
           </h2>
 
@@ -71,11 +77,26 @@ const ContactUs = () => {
           >
             <RiInstagramLine size={40} />
           </a>
+          <a
+            href="https://www.pinterest.com/roopandrootsbyrenu/"
+            target="_blank"
+            className="hover:text-[#6B8E23] transition"
+          >
+            <RiPinterestFill size={40} />
+          </a>
         </div>
 
         {/* Footer Trust Line */}
         <p className="text-center text-[#556B2F] mt-12 mb-6">
           🔬 Lab-Tested • 🍃 100% Natural • 🚫 Chemical-Free
+        </p>
+
+        {/* Signature + Copyright Footer */}
+        <p className="text-center text-[#556B2F] mt-12 mb-6">
+          Made with Love ❤️ and Herbs 🌿 by Renu
+        </p>
+        <p className="text-center text-[#556B2F] mt-12 mb-6">
+          © 2025 Roop & Roots. All rights reserved.
         </p>
       </section>
     </div>

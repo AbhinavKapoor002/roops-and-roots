@@ -50,7 +50,8 @@ const Product = () => {
       {/* 100g Pack */}
       <div className="bg-[#fffaf2] p-6 rounded-2xl shadow-md border border-[#e4d09b] hover:shadow-lg hover:scale-105 transition-all">
         <h3 className="text-xl font-semibold text-[#5C3B00] mb-2">
-          🌿 100 g Pack — ₹ 479 + Delivery
+          🌿 100 g Pack — ₹549
+          
         </h3>
         <p className="text-[#4B3A24] mb-4">
           Ideal for daily skincare. Keeps your skin fresh, clean, and naturally radiant.
@@ -67,7 +68,7 @@ const Product = () => {
       {/* 50g Pack */}
       <div className="bg-[#fffaf2] p-6 rounded-2xl shadow-md border border-[#e4d09b] hover:shadow-lg hover:scale-105 transition-all">
         <h3 className="text-xl font-semibold text-[#5C3B00] mb-2">
-          ✨ 50 g Pack — ₹ 349 + Delivery
+          ✨ 50 g Pack — ₹ 349 
         </h3>
         <p className="text-[#4B3A24] mb-4">
           Perfect for travel and first-time users — easy to carry, easy to glow.
@@ -81,8 +82,16 @@ const Product = () => {
         </a>
       </div>
     </div>
+    {/* Delivery Note */}
+        <div className="w-full max-w-3xl flex justify-end mt-4">
+          <p className="text-xs text-[#5C3B00]/80 bold">
+            ⭐ Delivery charges apply
+          </p>
+        </div>
+     
   </div>
 </div>
+
 
 
 
