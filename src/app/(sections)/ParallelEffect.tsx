@@ -9,6 +9,7 @@ import BlackLogo from "./brand-logo-dark.png";
 const ParallelEffect = () => {
   const wrapperRef = useRef<HTMLDivElement>(null);
 
+  
   useEffect(() => {
     function handleScroll() {
       const maxScrollHeight = document.body.scrollHeight - window.innerHeight;
