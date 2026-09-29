@@ -28,10 +28,9 @@ const BlogPage = () => {
           {/* Blog Articles */}
           <section className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-            {/* Article Card */}
+            {/* Herbal Face Pack Article */}
             <article className="group overflow-hidden rounded-3xl border border-[#e4d09b] bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
-              {/* Article Image */}
               <div className="flex h-[280px] items-center justify-center overflow-hidden bg-[#fffaf2] p-8">
                 <Image
                   src="/images/product/transparent product image.png"
@@ -42,9 +41,7 @@ const BlogPage = () => {
                 />
               </div>
 
-              {/* Article Content */}
               <div className="p-8">
-
                 <p className="text-sm font-medium uppercase tracking-wider text-[#8B6B3F]">
                   Herbal Skincare
                 </p>
@@ -68,7 +65,45 @@ const BlogPage = () => {
                     →
                   </span>
                 </Link>
+              </div>
+            </article>
 
+            {/* Natural Skincare Article */}
+            <article className="group overflow-hidden rounded-3xl border border-[#e4d09b] bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+
+              <div className="flex h-[280px] items-center justify-center overflow-hidden bg-[#fffaf2] p-8">
+                <Image
+                  src="/images/product/transparent product image.png"
+                  alt="Natural skincare routine by Roop & Roots"
+                  width={500}
+                  height={500}
+                  className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+
+              <div className="p-8">
+                <p className="text-sm font-medium uppercase tracking-wider text-[#8B6B3F]">
+                  Natural Skincare
+                </p>
+
+                <h2 className="mt-3 font-marcellus text-2xl leading-tight text-[#5C3B00]">
+                  Natural Skincare Routine: A Simple Herbal Skincare Guide
+                </h2>
+
+                <p className="mt-4 leading-relaxed text-[#556B2F]">
+                  Learn simple ways to build a natural skincare routine with
+                  herbal skincare tips and everyday skincare habits.
+                </p>
+
+                <Link
+                  href="/blog/natural-skincare-routine"
+                  className="mt-6 inline-flex items-center font-semibold text-[#6B8E23] transition-colors hover:text-[#3b4a22]"
+                >
+                  Read Article
+                  <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">
+                    →
+                  </span>
+                </Link>
               </div>
             </article>
 
